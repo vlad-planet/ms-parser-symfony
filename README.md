@@ -2,30 +2,30 @@
  sources
  
 $settings = array(
-    //Стартовая страница каталога
+    // Стартовая страница каталога
     "start_page" => "http://smartkros.ru/categories/ugg-australia",
 
-    #### Селектор каталога
+    // Селектор каталога
     "catalog_selector" => ".menu-dropdown",
     "catalog_selector_type" => "css",
-    //Максимальный уровень вложенности каталога
+    // Максимальный уровень вложенности каталога
     "catalog_max_parse_level" => 2,
 
-    #### Селектор следующей страницы пагинации
+    // Селектор следующей страницы пагинации
     "next_page_selector" => ".pagenumberer-next",
     "next_page_selector_type" => "css",
 
-    #### Селектор ссылки на товар в каталоге
+    // Селектор ссылки на товар в каталоге
     "catalog_item_link_selector" => ".products-view-name-link",
     "catalog_item_link_selector_type" => "css",
 
-    #### Дополнительные фильтры ссылок каталога
+    // Дополнительные фильтры ссылок каталога
     "catalog_link_filters" => array(
         "like" => array("/categories/"),
         "not_like" => array(),
         ),
 
-    #### Дополнительные фильтры ссылок товара
+    // Дополнительные фильтры ссылок товара
     "catalog_item_link_filters" => array(
         "like" => array("/products/"),
         "not_like" => array(),

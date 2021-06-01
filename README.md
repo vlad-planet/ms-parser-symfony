@@ -1,10 +1,12 @@
 # parser
  sources
  
+ 
+ 
 $settings = array(
     // Стартовая страница каталога
     "start_page" => "http://smartkros.ru/categories/ugg-australia",
-
+    
     // Селектор каталога
     "catalog_selector" => ".menu-dropdown",
     "catalog_selector_type" => "css",

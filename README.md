@@ -1,7 +1,7 @@
 # parser
  sources
  
- 
+```php
 
 $settings = array(
 
@@ -110,3 +110,5 @@ $settings = array(
 
         )
     );
+    
+```

@@ -2,7 +2,7 @@
  sources
  
  
- 
+
 $settings = array(
 
     // Стартовая страница каталога

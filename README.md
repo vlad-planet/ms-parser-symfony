@@ -4,6 +4,7 @@
  
  
 $settings = array(
+
     // Стартовая страница каталога
     "start_page" => "http://smartkros.ru/categories/ugg-australia",
     
